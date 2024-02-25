@@ -1,0 +1,24 @@
+JUnit 5
+Java 8 Date Time API
+Interface : abstract methods and non-abstract methods (static and default methods)
+Functional Interfaces : Single Abstract Method (SAM) interfaces
+Lambda Expressions
+Method References :: operator
+Optional class
+Java 8 Stream API
+Java Collections Framework
+    - Collections: List, Set, Queue
+        -- List: ArrayList, LinkedList, Vector
+        -- Set: HashSet, LinkedHashSet, TreeSet
+        -- Queue: PriorityQueue, LinkedList, ArrayDeque
+    - Map: HashMap, LinkedHashMap, TreeMap, HashTable, Properties
+    - Arrays
+Java Generics
+Java IO
+Lazy vs Eager
+Hot vs Cold
+static keyword
+final keyword
+Anonymous Inner Class
+java vs jakarta
+IO vs NIO
