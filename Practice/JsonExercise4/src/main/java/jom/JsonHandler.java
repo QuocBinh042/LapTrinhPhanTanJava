@@ -59,12 +59,10 @@ public class JsonHandler {
 							categories.add(new Category(joC.getString("id"), joC.getString("name")));
 						}
 					}
-
 					p.setCategory(categories);
 					p.setShipping(jo.getJsonNumber("shipping").doubleValue());
 					p.setDescription(jo.getString("description"));
 					p.setUrl(jo.getString("url"));
-
 					products.add(p);
 				}
 			}

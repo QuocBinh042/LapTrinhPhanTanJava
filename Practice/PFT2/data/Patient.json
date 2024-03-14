@@ -1,0 +1,33 @@
+[
+	{
+		"_id": "PT_49759",
+		"first_name": "Benjamin",
+		"last_name": "Dover",
+		"blood_type": "B-",
+		"gender": "Male",
+		"address": {
+			"city": "Alabama",
+			"district": "Wheeler",
+			"street": "63 Vancouver Way",
+			"ward": "AL"
+		},
+		"telephones": [
+			"(432)753-1274",
+			"(432)561-1275"
+		],
+		"tests": [
+			{
+				"date": {
+					"day": 10,
+					"month": 3,
+					"year": 2021
+				},
+				"result": "High levels of glucose",
+				"test_id": 5677,
+				"test_type": "Urinalysis",
+				"cost": 150.0
+			}
+		],
+		"year_of_birth": 1984
+	}
+]
