@@ -1,0 +1,36 @@
+{
+	"restaurant_id": "40358429",
+	"is_closed": true,
+	"name": "May May Kitchen",
+	"address": {
+		"building": "1269",
+		"coord": [
+			-73.871194,
+			40.6730975
+		],
+		"street": "Sutter Avenue",
+		"zipcode": "11208"
+	},
+	"borough": "Brooklyn",
+	"cuisine": "Chinese",
+	"grades": [
+		{
+			"date": {
+				"year": 2014,
+				"month": 9,
+				"day": 16
+			},
+			"grade": "B",
+			"score": 21
+		},
+		{
+			"date": {
+				"year": 2013,
+				"month": 8,
+				"day": 28
+			},
+			"grade": "A",
+			"score": 7
+		}
+	]
+}

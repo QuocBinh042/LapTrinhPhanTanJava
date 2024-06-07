@@ -16,18 +16,19 @@ import jakarta.json.JsonObjectBuilder;
 import jakarta.json.JsonReader;
 import jakarta.json.JsonValue;
 import jakarta.json.JsonWriter;
- 
+
 public class JsonHandler {
 	private static List<Product> p = JsonHandler.fromJson("data/products.json");
-	
+
 	public static Product findBySku(int sku) {
 		for (Product product : p) {
 			if (product.getSku() == sku) {
 				return product;
 			}
 		}
-		return null; 
+		return null;
 	}
+
 	public static List<Product> findByPrice(double from, double to) {
 		List<Product> result = new ArrayList<>();
 		for (Product product : p) {
@@ -38,7 +39,7 @@ public class JsonHandler {
 		}
 		return result;
 	}
-	
+
 	public static List<Product> fromJson(String fileName) {
 		List<Product> products = new ArrayList<>();
 		try (JsonReader reader = Json.createReader(new FileReader(fileName))) {
@@ -101,5 +102,4 @@ public class JsonHandler {
 		}
 	}
 
-	
 }

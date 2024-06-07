@@ -1,0 +1,8 @@
+//Update order date from String to Datetime
+//Chạy script sau để cập nhật cột orderDate và requiredDate về kiểu datetime
+
+LOAD CSV WITH HEADERS FROM "https://data.neo4j.com/northwind/orders.csv" AS row
+MERGE (n:Order {orderID:row.orderID})
+SET n.orderDate=datetime(replace(row.orderDate,' ','T')),
+n.requiredDate=datetime(replace(row.requiredDate,' ','T'))
+
